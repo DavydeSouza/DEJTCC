@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653324429334",
+    "project_id": "dejtcc",
+    "storage_bucket": "dejtcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653324429334:android:fbb46e6c7de7e6dbcc6d37",
+        "android_client_info": {
+          "package_name": "com.example.dejtcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653324429334-7qkmd70c9erh0683lf8f6ke54qvitklh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq1qzJ6kH-MZ2JNCU1kt9vg6VGXC6YTRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653324429334-7qkmd70c9erh0683lf8f6ke54qvitklh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
