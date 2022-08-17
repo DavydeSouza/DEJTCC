@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.example.dejtcc.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -77,6 +78,7 @@ public class Cadastro extends AppCompatActivity {
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(e,p).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+              if(p.equals(cp)){
                 if(task.isSuccessful()){
                     SalvarUsuarios();
                     Snackbar snackbar = Snackbar.make(v ,mensagens[1],Snackbar.LENGTH_LONG);
@@ -102,6 +104,9 @@ public class Cadastro extends AppCompatActivity {
                     snackbar.setTextColor(Color.BLACK);
                     snackbar.show();
                 }
+              }else{
+                  Toast.makeText(Cadastro.this,"A senhas devem ser compativeis!!", Toast.LENGTH_SHORT).show();
+              }
 
             }
         });
