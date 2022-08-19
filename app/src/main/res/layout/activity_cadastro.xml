@@ -98,8 +98,8 @@
 
     <Button
         android:id="@+id/btResgistrar"
-        android:layout_width="388dp"
-        android:layout_height="40dp"
+        android:layout_width="394dp"
+        android:layout_height="52dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:text="Registrar"
