@@ -10,8 +10,11 @@
         android:icon="@drawable/ic_baseline_receipt_long_24"
         android:title="@string/pedidos"/>
     <item
+        android:id="@+id/carrinho"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="Carrinho"/>
+    <item
         android:id="@+id/perfil"
-
         android:icon="@drawable/ic_baseline_person_outline_24"
         android:title="@string/perfil"/>
 </menu>

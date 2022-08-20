@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.dejtcc.Fragments.CartFragment;
 import com.example.dejtcc.Fragments.HomeFragment;
 import com.example.dejtcc.Fragments.ProfileFragments;
 import com.example.dejtcc.Fragments.RequestFrament;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     HomeFragment homeFragment = new HomeFragment();
     ProfileFragments profileFragments = new ProfileFragments();
     RequestFrament requestFrament = new RequestFrament();
+    CartFragment cartFragment = new CartFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.perfil:
                         getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragments).commit();
+                        return true;
+                    case R.id.carrinho:
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container, cartFragment).commit();
                         return true;
                 }
                 return false;
