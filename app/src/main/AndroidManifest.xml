@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DEJTCC.NoActionBarAndStatusBar">
         <activity
+            android:name=".Activity.AddProdutos"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Cadastro"
             android:exported="false" />
         <activity
