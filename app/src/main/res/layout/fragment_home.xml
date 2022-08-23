@@ -55,6 +55,7 @@
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbADD"
         android:layout_width="57dp"
         android:layout_height="55dp"
         android:layout_marginEnd="16dp"

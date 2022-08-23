@@ -9,8 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.dejtcc.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class HomeFragment extends Fragment {
+
+    FloatingActionButton floatingActionButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
