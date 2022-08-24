@@ -8,12 +8,85 @@
     tools:context=".Activity.AddProdutos">
 
     <TextView
+        android:layout_marginTop="50sp"
         android:layout_width="match_parent"
         android:layout_height="67dp"
         android:text="ADICIONAR ITEMS"
         android:textAlignment="center"
         android:textColor="@color/purple_200"
         android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comida:"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/eats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo:"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço:"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="@color/purple_200"
+        android:inputType="numberDecimal"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estoque:"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/inventory"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/addItem"
