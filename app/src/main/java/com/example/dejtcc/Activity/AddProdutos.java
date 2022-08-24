@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.dejtcc.MainActivity;
 import com.example.dejtcc.R;
@@ -82,6 +83,7 @@ public class AddProdutos extends AppCompatActivity {
             @Override
             public void onSuccess(Void unused) {
                 Log.d("db","Sucesso ao Adicionar");
+                Toast.makeText(AddProdutos.this,"Sucesso ao adicionar",Toast.LENGTH_SHORT).show();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
