@@ -59,7 +59,6 @@ public class AddProdutos extends AppCompatActivity {
         estoque = findViewById(R.id.inventory);
     }
     private void salvarProdutos(){
-        String UserID;
         String eats  =comida.getText().toString();
         String type =tipo.getText().toString();
         String description =descricao.getText().toString();
@@ -89,6 +88,7 @@ public class AddProdutos extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 Log.d("db_erro","Falha ao Salvar" + e.toString());
+                Toast.makeText(AddProdutos.this,"Falha ao Salvar" + e.toString(),Toast.LENGTH_SHORT).show();
 
             }
         });

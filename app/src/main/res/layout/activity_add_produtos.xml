@@ -90,17 +90,21 @@
 
     <Button
         android:id="@+id/addItem"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="394dp"
-        android:layout_height="wrap_content"
-        android:text="ADD"
-        android:backgroundTint="@color/purple_200"
-        android:textColor="#FFE667"
+        android:layout_height="68dp"
         android:layout_marginLeft="5sp"
-        />
+        android:backgroundTint="#8D16B5"
+        android:text="ADD"
+        android:textColor="#FFE667"
+
+        app:icon="@drawable/ic_baseline_add_24" />
     <Button
         android:id="@+id/voltar"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_width="394dp"
         android:layout_height="wrap_content"
+        app:icon="@drawable/ic_baseline_arrow_back_ios_24"
         android:text="Voltar"
         android:textColor="@color/purple_200"
         android:layout_marginLeft="5sp"

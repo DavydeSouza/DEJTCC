@@ -66,9 +66,11 @@ public class ProfileFragments extends Fragment {
     }
 
     private void IniciarComponents(){
-        mAuth = FirebaseAuth.getInstance();
+
+       mAuth = FirebaseAuth.getInstance();
     }
     public void RecuperaInfo(){
+
         String UserID = FirebaseAuth.getInstance().getCurrentUser().getUid();
         if(UserID != null){
             nameUser =(TextView) getActivity().findViewById(R.id.nameUser);

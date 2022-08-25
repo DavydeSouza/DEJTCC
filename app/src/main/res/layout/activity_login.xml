@@ -48,15 +48,17 @@
         android:layout_marginTop="10dp"
         android:id="@+id/check_password"
         />
+
     <Button
-        android:layout_width="380dp"
-        android:layout_height="wrap_content"
-        android:background="#ffff"
+        android:id="@+id/btn_login"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="386dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
         android:text="Login"
         android:textColor="@color/purple_200"
-        android:layout_marginTop="20dp"
-        android:id="@+id/btn_login"
-        android:backgroundTint="@color/white"
+        app:icon="@drawable/ic_baseline_login_24"
         />
     <TextView
         android:layout_width="380dp"
@@ -72,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/loding_login"
-        android:indeterminateTint="#FFD863"
+        android:indeterminateTint="#ffffff"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:indeterminate="true"
         android:visibility="invisible"
