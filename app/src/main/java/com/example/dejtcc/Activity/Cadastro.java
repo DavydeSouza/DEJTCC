@@ -116,7 +116,7 @@ public class Cadastro extends AppCompatActivity {
         String user =nome.getText().toString();
         String suser =sobrenome.getText().toString();
 
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        FirebaseFirestore b = FirebaseFirestore.getInstance();
 
         Map<String,Object> usuarios =new HashMap<>();
         usuarios.put("nomes",user);
@@ -124,16 +124,16 @@ public class Cadastro extends AppCompatActivity {
 
         UserID = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
-        DocumentReference documentReference = db.collection("usuarios").document(UserID);
+        DocumentReference documentReference = b.collection("usuarios").document(UserID);
         documentReference.set(usuarios).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void unused) {
-                Log.d("db","Sucesso ao Cadastrar");
+                Log.d("b","Sucesso ao Cadastrar");
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Log.d("db_erro","Falha ao Salvar" + e.toString());
+                Log.d("b_erro","Falha ao Salvar" + e.toString());
 
             }
         });
