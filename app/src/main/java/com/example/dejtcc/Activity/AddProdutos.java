@@ -74,9 +74,8 @@ public class AddProdutos extends AppCompatActivity {
         produtos.put("preco",price);
         produtos.put("estoque",inventory);
 
-        produtoID = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
-        DocumentReference documentReference = db.collection("produtos").document(produtoID);
+        DocumentReference documentReference = db.collection("produtos").document();
 
         documentReference.set(produtos).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override

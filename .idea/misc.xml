@@ -6,15 +6,19 @@
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/drawable/background.xml" value="0.1" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.112" />
+        <entry key="..\:/falcudade/DEJTCC/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1485" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_add_produtos.xml" value="0.22" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_cadastro.xml" value="0.19947916666666668" />
+        <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_listagem.xml" value="0.12" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/activity_navegation.xml" value="0.20416666666666666" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/fragment_cart.xml" value="0.20416666666666666" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/fragment_profile_fragments.xml" value="0.20416666666666666" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/fragment_request_frament.xml" value="0.20416666666666666" />
+        <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/item_produto.xml" value="0.25" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/layout/sample_my_view.xml" value="0.20416666666666666" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/menu/menuzin.xml" value="0.22" />
         <entry key="..\:/falcudade/DEJTCC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
