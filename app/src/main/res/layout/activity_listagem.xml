@@ -7,8 +7,9 @@
     tools:context=".Activity.Listagem">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="416dp"
-        android:layout_height="733dp"
+        android:id="@+id/recview"
+        android:layout_width="325dp"
+        android:layout_height="659dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
@@ -20,9 +21,9 @@
         android:id="@+id/btBack"
         android:layout_width="176dp"
         android:layout_height="70dp"
+        android:layout_marginTop="8dp"
         android:text="Voltar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="624dp"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/recview" />
 </androidx.constraintlayout.widget.ConstraintLayout>

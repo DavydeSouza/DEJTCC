@@ -18,8 +18,6 @@ import android.widget.Button;
 import com.example.dejtcc.Activity.AddProdutos;
 import com.example.dejtcc.Activity.Listagem;
 import com.example.dejtcc.MainActivity;
-import com.example.dejtcc.Models.MyAdapter;
-import com.example.dejtcc.Models.Produtos;
 import com.example.dejtcc.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentChange;
@@ -36,10 +34,10 @@ public class HomeFragment extends Fragment {
 
     Button listButton;
     FloatingActionButton floatingActionButton;
-    ArrayList<Produtos> arrayprodutos;
+  //  ArrayList<Produtos> arrayprodutos;
     View view;
     RecyclerView recyclerView;
-    MyAdapter myAdapter;
+   // MyAdapter myAdapter;
     ProgressDialog progressDialog;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
 
@@ -108,10 +106,10 @@ public class HomeFragment extends Fragment {
 
                     if (dc.getType() == DocumentChange.Type.ADDED){
 
-                        arrayprodutos.add(dc.getDocument().toObject(Produtos.class));
+                        //arrayprodutos.add(dc.getDocument().toObject(Produtos.class));
                     }
 
-                    myAdapter.notifyDataSetChanged();
+                  //  myAdapter.notifyDataSetChanged();
 
                 }
 
