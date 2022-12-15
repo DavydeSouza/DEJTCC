@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DEJTCC.NoActionBarAndStatusBar">
         <activity
+            android:name=".Activity.Termo"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Listagem"
             android:exported="false" />
         <activity
